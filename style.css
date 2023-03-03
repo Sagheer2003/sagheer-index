@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+
+header{
+    background-color: #383444;
+    width: 100vw;
+    height: 91vh;
+}
+
+nav{
+    display: flex;
+    padding: 0px 60px 0px 40px;
+}
+.logo-container{
+    width: 12vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 20px 20px;
+}
+.logo-container .logo{
+    width: 1.5vw;
+    display: flex;
+    float: left;
+}
+.logo-container .logo span .fa-solid{
+    font-size: 3vmin;
+    color: yellow;
+    
+}
+.logo-container .Domine{
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+}
+.logo-container .Domine h1{
+    font-size: 3vmin;
+    color: #dad4e2;
+    font-weight: 500;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    margin: 20px 20px 20px 70px;
+}
+nav ul li{
+    margin: 0px 40px;
+}
+nav ul li a{
+    color: #9d98a7;
+}
+
+nav .icon-container{
+    display: flex;
+    align-items: center;
+    margin: 20px 10px 20px 25vw;
+    width: 8vw;
+}
+.Right-icons .fa-solid{
+    margin: 0px 20px 0px 0px;
+    color: #dad4e2;
+    font-size: 3vmin;
+}
+.Right-icons .fa-brands{
+    margin: 0px 20px 0px 0px;
+    color: #dad4e2;
+    font-size: 3vmin;
+}
+.first-lines .line{
+    background-color: #dad4e2;
+    width: 2vw;
+    height: 0.5vh;
+    margin: 2px;
+    border-radius: 30px;
+}
+
+.first-lines .line{
+    background-color: #dad4e2;
+    width: 2vw;
+    height: 0.5vh;
+    margin: 1px;
+    border-radius: 30px;
+}
+.first-lines .short{
+    width: 1vw;
+    height: 0.6vh;
+    margin-bottom: 2px;
+}
+
+.sa-container{
+    margin: 19vh 0px 0px 75px;
+    width: 34vw;
+    float: left;
+    z-index: 99;
+    position: relative;
+}
+.background-circle{
+    background-color: #302c34;
+    display: flex;
+    width: 40vw;
+    height: 85vh;
+    position: absolute;
+    margin-left: 30vw;
+    border-radius: 60%;
+
+}
+.sa-container h3{
+    color: #9d98a7;
+    font-size: 5vmin;
+    font-weight: 300;
+}
+.sa-container h1{
+    color: #ffffff;
+    font-size: 10vmin;
+    letter-spacing: 1px;
+}
+.sa-container .underline{
+    background-color: yellow;
+    width: 14vw;
+    height: 1vh;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+.sa-container .para{
+    width: 22vw;
+    color: #9d98a7;
+}
+.background-circle img{
+    padding: 20px 0px 0px 30px;
+    z-index: 100;
+    position: relative;
+ }
+ .services-container{
+     display: flex;
+     width: 23vw;
+     z-index: 120;
+     position: absolute;
+     margin-left: 70vw;
+     margin-top: 17vh;
+ }
+ .services-content h2{
+     color: #9d98a7;
+     font-size: 3vmin;
+     font-weight: 500;
+     line-height: 40px;
+ }
+ .services-content h1{
+     color: #dad4e2;
+     font-size: 3vmin;
+     margin-bottom: 15px;
+ }
+ .services-content p{
+     color: yellow;
+     font-size: 2.5vmin;
+     margin-bottom: 25px;
+ }
+ .services-content p span i{
+     margin-left: 6px;
+ }
+ .socials-icons{
+     display: flex;
+     width: 20vw;
+ }
+ .socials-icons ul div{
+     background-color: #514d5c;
+     display: flex;
+     margin-right: 20px;
+     width: 40px;
+     height: 35px;
+     border-radius: 30px;
+     justify-content: center;
+     align-items: center;
+     padding-top: 5px;
+     float: left;
+     box-shadow: 0px 0px 7px 1px #302c34;
+ }
+ .socials-icons ul .fa-brands{
+     color: yellow;
+     font-size: 3vmin;
+ }
+ .company-section{
+     background-color: #514d5c;
+     width: 85vw;
+     justify-content: center;
+     height: 16vh;
+     position: relative;
+     display: flex;
+     top: 80px;
+     margin-left: 75px;
+     padding-left: 30px;
+     z-index: 150;
+     box-shadow: 0px 0px 7px 1px #302c34;
+ }
+ .company-section div{
+     background-color: #383444;
+     width: 85vw;
+     display: flex;
+     margin: 30px 30px 30px 0px;
+ }
+ .company-section div span img{
+     display: flex;
+     width: 10vw;
+ }
+ .company-section .linked{
+     width: 5vw;
+ }
+ .company-section .slack{
+     width: 3vw;
+ }
+ .company-section .name-meta{
+     display: flex;
+     align-items: center;
+     margin: 0 auto;
+ }
+ .company-section .name-google{
+     display: flex;
+     align-items: center;
+     margin: 0 auto;
+     padding-top: 10px;
+ }
+ .company-section .name-linked{
+     display: flex;
+     align-items: center;
+     margin: 0 auto;
+     font-size: 2vmin;
+     color: #efeef1;
+ }
+ .company-section .name-slack{
+     display: flex;
+     align-items: center;
+     margin: 0 auto;
+     font-size: 2vmin;
+     color: #efeef1;
+ }
+ .working-section{
+     background-color: #302c34;
+     padding: 15vh 0px 0px 0px;
+     height: 100vh;
+ }
+ .working-content{
+     display: flex;
+     width: 87vw;
+     margin-left: 75px;
+ }
+ .working-experience{
+     position: absolute;
+     width: 31vw;
+     margin-top: 60px;
+ }
+ .working-experience h1{
+     font-size: 7vmin;
+     line-height: 70px;
+     color: #ffffff;
+     margin-bottom: 50px;
+ }
+ .working-experience .exp-para{
+     width: 20vw;
+     margin-bottom: 60px;
+     line-height:60px;
+     color: #9d98a7;
+     margin-top: 50px;
+ }
+ .working-experience strong{
+     color: yellow;
+     font-size: 4vmin;
+     
+     
+ }
+ .working-experience .experience-info{
+     width: 35vw;
+ }
+ .working-experience .sub-para{
+     float: left;
+     margin-right: 60px;
+     margin-bottom: 40px;
+ }
+ .working-project{
+     width: 45vw;
+     margin-left: 42.4vw;
+ }
+ .working-project .panel1{
+     display: flex;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     border-bottom: 1px solid #585d65;
+ }
+ .working-project .panel1 h1{
+     font-size: 3vmin;
+     color: #ffffff;
+ }
+ .working-project .panel1 div span .fa-solid{
+     margin-left: 13vw;
+     color: yellow;
+ }
+ .working-project .panel1 div span img{
+     width: 20vw;
+ }
+ .sub-para p{
+     color: #9d98a7;
+     font-size: 2vmin;
+ }
+ .panel1 .title{
+     width: 25vw;
+     padding-left: 15px;
+ }
+ .panel1 .title p{
+     color: #9d98a7;
+ }
+ .working-project .panel2{
+     display: flex;
+     padding-top: 20px;
+     padding-bottom: 10px;
+     border-bottom: 1px solid #585d65;
+ }
+ .working-project .panel2 h1{
+     font-size: 3vmin;
+     color: #ffffff;
+ }
+ .working-project .panel2 div span .fa-solid{
+     margin-left: 9.5vw;
+     color: yellow;
+ }
+ .working-project .panel2 div span img{
+     width: 20vw;
+ }
+ .panel2 .title{
+     width: 25vw;
+     padding-left: 15px;
+ }
+ .panel2 .title p{
+     color: #9d98a7;
+ }
+ .working-project .panel3{
+     display: flex;
+     padding-top: 20px;
+     padding-bottom: 10px;
+     border-bottom: 1px solid #585d65;
+ }
+ .working-project .panel3 h1{
+     font-size: 3vmin;
+     color: #ffffff;
+ }
+ .working-project .panel3 div span .fa-solid{
+     margin-left: 8.3vw;
+     color: yellow;
+ }
+ .working-project .panel3 div span img{
+     width: 20vw;
+ }
+ .panel3 .title{
+     width: 25vw;
+     padding-left: 15px;
+ }
+ .panel3 .title p{
+     color: #9d98a7;
+ }
+
+
+
+ @media(max-width:450){
+    htmml{
+        font-size: 50%;
+
+    }
+    header{
+        width: 100%;
+    }
+ }
